@@ -1,7 +1,7 @@
 ---
 layout: page
 title: project 4
-description: another without an image
+description: Prescribed Burn Efficacy in the Changing California Climate
 img:
 importance: 3
 category: fun
