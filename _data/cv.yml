@@ -66,7 +66,7 @@ cv:
         area: Statistics
         studyType: PhD
         start_date: 2024
-        end_date: Present
+        end_date: present
         highlights:
           - "Advisor: Professor Philip Stark"
           - "Related Coursework: Theoretical Statistics, Probability Theory, Applied Statistics, Statistical Consulting, Case Studies in Prediction, Policy, and AI"

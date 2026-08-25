@@ -1,14 +1,12 @@
 name: Render a CV
+# Disabled: the real `rendercv` Python tool enforces a stricter/different
+# schema than the al_folio_cv Liquid gem that _data/cv.yml is written for
+# (e.g. Publications/Awards entries need an `authors` list; the header uses
+# `headline`/`location`/`photo` instead of `label`/`address`/`image`, and
+# rejects any other top-level key). A real, manually-maintained PDF is
+# already linked via `cv_pdf:` in _pages/cv.md, so this auto-render is
+# redundant. Left as workflow_dispatch-only so it can still be run by hand.
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
   workflow_call:
   workflow_dispatch:
 permissions:
