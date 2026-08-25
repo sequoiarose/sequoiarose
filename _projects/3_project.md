@@ -12,4 +12,4 @@ In the 2024 general election, bomb threats disrupted polling places across Georg
 
 Results found statistically significantly lower turnout in Dekalb county and a non-significant difference in Fulton. Ultimately these results indicate that extending polling hours do not compensate for poll closures due to threats.
 
-The code and data for this analysis are available in the [georgia-2024-election repository](https://github.com/sequoiarose/georgia-2024-election), with the paper presented at E-Vote-ID 2025 and available here {% cite andrade2025extending %}. The results were also presented in a panel at the ESRA conference in June 2026. 
+The code and data for this analysis are available in the [georgia-2024-election repository](https://github.com/sequoiarose/georgia-2024-election), with the paper presented at E-Vote-ID 2025 and available here {% cite andrade2025extending %}. A poster presented at BSTARS is available [here](/assets/pdf/BSTARS_2025_Sequoia.pdf). The results were also presented in a panel at the ESRA conference in June 2026. 
