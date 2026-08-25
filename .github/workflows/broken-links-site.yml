@@ -44,4 +44,7 @@ jobs:
         with:
           fail: true
           # only check local links
-          args: --offline --remap '_site(/?.*)/assets/(.*) _site/assets/$2' --verbose --no-progress '_site/**/*.html'
+          # --root-dir is required so lychee can resolve root-relative links
+          # (e.g. /assets/..., /projects/) against the built site; without it
+          # every such link is flagged as an unresolvable error.
+          args: --offline --root-dir "${{ github.workspace }}/_site" --remap '_site(/?.*)/assets/(.*) _site/assets/$2' --verbose --no-progress '_site/**/*.html'

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Carbon Emissions Monitoring in the Bay Area
-description: 
+description:
 img:
 importance: 1
 category: PhD Research

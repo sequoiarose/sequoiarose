@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Statistical Analysis in the Racial Justice Act
-description: 
+description:
 importance: 1
 category: PhD Research
 related_publications: false

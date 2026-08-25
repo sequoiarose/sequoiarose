@@ -192,28 +192,28 @@ cv:
         summary: "with Hannah S. Walsh"
 
     Conference Publications:
-      - bullet: "Andrade, Sequoia, and Stark, Philip. \"Does Extending Polling Hours Compensate for Bomb Threats? Evidence from the 2024 Election in Georgia, USA.\" *E-Vote-ID*, October 2025."
-      - bullet: "Mbaye, Seydou; Hulse, Daniel; Irshad, Lukman; Walsh, Hannah; Andrade, Sequoia. \"Towards Computational Functional Hazard Assessment (CFHA): A Gap Analysis and Concept for Emerging Aviation Systems.\" AIAA 2025-1411, *AIAA SciTech 2025 Forum*, January 2025."
-      - bullet: "Andrade, Sequoia R.; Mbaye, Seydou; Davies, Misty; Jones, Garfield. \"Evaluating Faulty State Occurrence in Wildfire UAS Missions Using Markov Chains.\" AIAA 2024-4365, *AIAA AVIATION 2024 Forum*, July 2024."
-      - bullet: "Andrade, Sequoia R., and Walsh, Hannah S. \"SafeAeroBERT: Towards a Safety-Informed Aerospace-Specific Language Model.\" AIAA 2023-3437, *AIAA AVIATION 2023 Forum*, June 2023."
-      - bullet: "Andrade, Sequoia R., and Walsh, Hannah S. \"What Went Wrong: A Survey of Wildfire UAS Mishaps through Named Entity Recognition.\" *2022 IEEE/AIAA 41st Digital Avionics Systems Conference (DASC)*, Portsmouth, VA, 2022, pp. 1-10. Awarded 2nd Best of Conference."
-      - bullet: "Walsh, Hannah S., and Andrade, Sequoia R. \"Semantic Search With Sentence-BERT for Design Information Retrieval.\" *International Design Engineering Technical Conferences and Computers and Information in Engineering Conference*, Vol. 86212, ASME, 2022."
-      - bullet: "Andrade, Sequoia R., and Walsh, Hannah S. \"Machine Learning Enabled Quantitative Risk Assessment of Aerial Wildfire Response.\" *AIAA AVIATION 2022 Forum*, 2022."
-      - bullet: "Andrade, Sequoia R., and Walsh, Hannah S. \"Knowledge Discovery for Early Failure Assessment of Complex Engineered Systems Using Natural Language Processing.\" *International Design Engineering Technical Conferences and Computers and Information in Engineering Conference*, Vol. 85376, ASME, 2021."
-      - bullet: "Andrade, Sequoia R., and Walsh, Hannah S. \"Wildfire Emergency Response Hazard Extraction and Analysis of Trends (HEAT) through Natural Language Processing and Time Series.\" *2021 IEEE/AIAA 40th Digital Avionics Systems Conference (DASC)*, IEEE, 2021."
-      - bullet: "Andrade, Sequoia R., et al. \"The System Modeling and Analysis of Resiliency in STEReO (SMARt-STEReO).\" *AIAA AVIATION 2021 Forum*, 2021."
+      - bullet: 'Andrade, Sequoia, and Stark, Philip. "Does Extending Polling Hours Compensate for Bomb Threats? Evidence from the 2024 Election in Georgia, USA." *E-Vote-ID*, October 2025.'
+      - bullet: 'Mbaye, Seydou; Hulse, Daniel; Irshad, Lukman; Walsh, Hannah; Andrade, Sequoia. "Towards Computational Functional Hazard Assessment (CFHA): A Gap Analysis and Concept for Emerging Aviation Systems." AIAA 2025-1411, *AIAA SciTech 2025 Forum*, January 2025.'
+      - bullet: 'Andrade, Sequoia R.; Mbaye, Seydou; Davies, Misty; Jones, Garfield. "Evaluating Faulty State Occurrence in Wildfire UAS Missions Using Markov Chains." AIAA 2024-4365, *AIAA AVIATION 2024 Forum*, July 2024.'
+      - bullet: 'Andrade, Sequoia R., and Walsh, Hannah S. "SafeAeroBERT: Towards a Safety-Informed Aerospace-Specific Language Model." AIAA 2023-3437, *AIAA AVIATION 2023 Forum*, June 2023.'
+      - bullet: 'Andrade, Sequoia R., and Walsh, Hannah S. "What Went Wrong: A Survey of Wildfire UAS Mishaps through Named Entity Recognition." *2022 IEEE/AIAA 41st Digital Avionics Systems Conference (DASC)*, Portsmouth, VA, 2022, pp. 1-10. Awarded 2nd Best of Conference.'
+      - bullet: 'Walsh, Hannah S., and Andrade, Sequoia R. "Semantic Search With Sentence-BERT for Design Information Retrieval." *International Design Engineering Technical Conferences and Computers and Information in Engineering Conference*, Vol. 86212, ASME, 2022.'
+      - bullet: 'Andrade, Sequoia R., and Walsh, Hannah S. "Machine Learning Enabled Quantitative Risk Assessment of Aerial Wildfire Response." *AIAA AVIATION 2022 Forum*, 2022.'
+      - bullet: 'Andrade, Sequoia R., and Walsh, Hannah S. "Knowledge Discovery for Early Failure Assessment of Complex Engineered Systems Using Natural Language Processing." *International Design Engineering Technical Conferences and Computers and Information in Engineering Conference*, Vol. 85376, ASME, 2021.'
+      - bullet: 'Andrade, Sequoia R., and Walsh, Hannah S. "Wildfire Emergency Response Hazard Extraction and Analysis of Trends (HEAT) through Natural Language Processing and Time Series." *2021 IEEE/AIAA 40th Digital Avionics Systems Conference (DASC)*, IEEE, 2021.'
+      - bullet: 'Andrade, Sequoia R., et al. "The System Modeling and Analysis of Resiliency in STEReO (SMARt-STEReO)." *AIAA AVIATION 2021 Forum*, 2021.'
 
     Technical Reports:
-      - bullet: "Andrade, Sequoia; Hulse, Daniel E.; Irshad, Lukman; Walsh, Hannah S. \"Supporting Hazard Analysis for Wildfire Response Using fmdtools and MIKA.\" 2022."
-      - bullet: "Lehman, Sarah M.; Slagel, Tanner J.; Andrade, Sequoia; Walsh, Hannah; Goodloe, Alwyn; Brandt, Summer L.; Neogi, Natasha. \"NASA System-Wide Safety Wildland Firefighting Operations Workshop Report.\" NASA/TM-20220014721, 2022."
-      - bullet: "Hulse, Daniel E.; Andrade, Sequoia R.; Spirakis, Eleni; Walsh, Hannah S.; Davies, Misty D. \"SMARt-STEReO: Preliminary Model Description.\" 2020."
-      - bullet: "Walsh, Hannah S.; Spirakis, Eleni; Andrade, Sequoia R.; Hulse, Daniel E.; Davies, Misty D. \"SMARt-STEReO: Preliminary Concept of Operations.\" NASA/TM-20205007665, 2020."
+      - bullet: 'Andrade, Sequoia; Hulse, Daniel E.; Irshad, Lukman; Walsh, Hannah S. "Supporting Hazard Analysis for Wildfire Response Using fmdtools and MIKA." 2022.'
+      - bullet: 'Lehman, Sarah M.; Slagel, Tanner J.; Andrade, Sequoia; Walsh, Hannah; Goodloe, Alwyn; Brandt, Summer L.; Neogi, Natasha. "NASA System-Wide Safety Wildland Firefighting Operations Workshop Report." NASA/TM-20220014721, 2022.'
+      - bullet: 'Hulse, Daniel E.; Andrade, Sequoia R.; Spirakis, Eleni; Walsh, Hannah S.; Davies, Misty D. "SMARt-STEReO: Preliminary Model Description." 2020.'
+      - bullet: 'Walsh, Hannah S.; Spirakis, Eleni; Andrade, Sequoia R.; Hulse, Daniel E.; Davies, Misty D. "SMARt-STEReO: Preliminary Concept of Operations." NASA/TM-20205007665, 2020.'
 
     Presentations:
-      - bullet: "Andrade, Sequoia; Asimow, Naomi; Giordano, Ryan; Cohen, Ronald. \"Towards Accelerated CO2 Inversion Modeling for Understanding Uncertainties through Multicore Processing and a Reusable Code Base.\" American Geophysical Union Annual Meeting, 2025."
-      - bullet: "Andrade, Sequoia; Mehlitz, Peter; Shafiei, Nastaran; Coughlan, Joseph; Brat, Guillaume. \"Improving Satellite-Based Hotspot Detection Through Deep Learning-Enabled Smoke Recognition.\" American Geophysical Union Annual Meeting, 2024."
-      - bullet: "Andrade, Sequoia, and Piryatinska, Alexandra. \"Towards a Statistical Analysis of Wildland and Prescribed Fires in the Changing California Climate.\" CSU Mathematical Sciences Conference, 2023."
-      - bullet: "Andrade, Sequoia, and Walsh, Hannah. \"Natural Language Processing Techniques for Intelligent Knowledge Management of Safety Reports.\" NASA Data Science Summit, 2022."
+      - bullet: 'Andrade, Sequoia; Asimow, Naomi; Giordano, Ryan; Cohen, Ronald. "Towards Accelerated CO2 Inversion Modeling for Understanding Uncertainties through Multicore Processing and a Reusable Code Base." American Geophysical Union Annual Meeting, 2025.'
+      - bullet: 'Andrade, Sequoia; Mehlitz, Peter; Shafiei, Nastaran; Coughlan, Joseph; Brat, Guillaume. "Improving Satellite-Based Hotspot Detection Through Deep Learning-Enabled Smoke Recognition." American Geophysical Union Annual Meeting, 2024.'
+      - bullet: 'Andrade, Sequoia, and Piryatinska, Alexandra. "Towards a Statistical Analysis of Wildland and Prescribed Fires in the Changing California Climate." CSU Mathematical Sciences Conference, 2023.'
+      - bullet: 'Andrade, Sequoia, and Walsh, Hannah. "Natural Language Processing Techniques for Intelligent Knowledge Management of Safety Reports." NASA Data Science Summit, 2022.'
 
     # Section title must stay exactly "Certificates" for the styled
     # certificates template (PDF's "Certifications" heading is renamed here).
