@@ -2,19 +2,64 @@ cv:
   name: Sequoia Rose Andrade
   label: PhD Candidate
   email: srandrade@berkeley.edu
-  location: Berkeley, California, USA
+  address:
+    city: Berkeley
+    region: California, USA
   image: ""
   summary: Third year PhD Candidate in Statistics at UC Berkeley working on computational methods for social good applications.
 
-  social_networks:
-    - network: GitHub
-      username: sequoiarose
-    - network: LinkedIn
-      username: sequoia-andrade
-    - network: Google Scholar
-      username: bDFaQ3MAAAAJ
-
   sections:
+    # `Experience` is always rendered directly under the Summary card by the
+    # al_folio_cv template, ahead of every other section below regardless of
+    # this file's key order -- see al_folio_cv templates/cv/render.liquid.
+    Experience:
+      - company: University of California, Berkeley
+        position: Graduate Student Research Fellow
+        location: Berkeley, California, USA
+        start_date: 2024
+        summary: "Department of Statistics"
+        highlights:
+          - "Translated a Julia research code base into a reusable, modular Python package for carbon emission inversion modeling and increased computational efficiency by leveraging matrix sparsity"
+          - "Implemented non-parametric statistics to analyze the effect of bomb threats on polling places in Georgia in the 2024 general election, which led to a conference presentation and publication"
+          - "Authored two Expert Declarations filed as evidence in a complaint for a Racial Justice Act violation lawsuit, based on non-parametric simulation-based statistical inference and non-parametric combination of tests"
+
+      - company: San Francisco State University
+        position: Graduate Student
+        location: San Francisco, California, USA
+        start_date: 2022
+        end_date: 2024
+        summary: "Department of Mathematics &middot; Advisor: Dr. Alexandra Piryatinska"
+        highlights:
+          - "Created a novel dataset suitable for studying the effect of prescribed fires on wildfires while controlling for climate variables, by fusing disparate data sources from 2015-2022"
+          - "Performed cross-correlation time series analysis to identify relevant variables"
+          - "Utilized non-parametric statistical tests and regression models to evaluate the effect of prescribed burn treatment on wildfire size"
+
+      - company: NASA Ames Research Center
+        position: Research Engineer (Contract)
+        location: Mountain View, California, USA
+        start_date: 2020
+        summary: "Open Data Integration for Wildfire Response (ODIN-Fire) &middot; Manager for Intelligent Knowledge Access (MIKA)"
+        highlights:
+          - "**ODIN-Fire:** Developed cloud and smoke classification model to improve satellite-based wildfire detection"
+          - "**ODIN-Fire:** Trained and evaluated a fully connected neural network for image segmentation to classify smoke from cloud, using TensorFlow and self-supervised pre-training"
+          - "**ODIN-Fire:** Deployed the model on a Python server and displayed results in a JavaScript application using an actor-based messaging system in Scala"
+          - "**ODIN-Fire:** Resulted in multiple presentations and a journal manuscript in progress"
+          - "**MIKA:** Developed and applied the Hazard Extraction and Analysis of Trends (HEAT) algorithm for use on large datasets containing both qualitative and quantitative data"
+          - "**MIKA:** Implemented transformer-based natural language processing algorithms for information discovery, custom named-entity recognition, classification, and topic modeling"
+          - "**MIKA:** Leveraged statistical analysis methods to interpret findings, identify significant predictors of hazard occurrence, and examine significant differences"
+          - "**MIKA:** Resulted in four peer-reviewed journal publications"
+
+      - company: NASA Ames Research Center
+        position: Intern
+        location: Mountain View, California, USA
+        start_date: 2020
+        end_date: 2020
+        summary: "System Modeling and Analysis of Resilience in Scalable Traffic Management for Emergency Response Operations (SMARt-STEReO)"
+        highlights:
+          - "Collaborated with other interns to develop a simulation model of wildfire propagation and response using Python"
+          - "Identified research questions on system performance and resilience, and tested them using statistics (t-test, ANOVA)"
+          - "Resulted in four publications, including one peer-reviewed journal publication and two technical reports"
+
     Education:
       - institution: University of California, Berkeley
         location: Berkeley, California, USA
@@ -23,40 +68,182 @@ cv:
         start_date: 2024
         end_date: Present
         highlights:
-          - Advisor: Professor Philip Stark
+          - "Advisor: Professor Philip Stark"
+          - "Related Coursework: Theoretical Statistics, Probability Theory, Applied Statistics, Statistical Consulting, Case Studies in Prediction, Policy, and AI"
 
       - institution: San Francisco State University
         location: San Francisco, California, USA
         area: Statistical Data Science
         studyType: M.S.
+        start_date: 2022
         end_date: 2024
         highlights:
-          - Advisor: Professor Alexandria Piryatinska
-          - Graduated with distinction
+          - "Advisor: Professor Alexandra Piryatinska"
+          - "GPA: 4.0 (Distinguished Student Award)"
+          - "Related Coursework: Probability Models, Advanced Probability Models, Categorical Data Analysis, Database Management Systems, Topics in Big Data, Statistical and Machine Learning, Computational Statistics"
+          - "Thesis: A Statistical Analysis of Wildland and Prescribed Fires in the Changing California Climate"
 
       - institution: Santa Clara University
         location: Santa Clara, California, USA
-        area: Mathematics and Psychology
+        area: "Mathematics (applied emphasis), Psychology"
         studyType: B.S.
+        end_date: 2020
+        highlights:
+          - "GPA: 3.71 (Magna Cum Laude)"
+          - "Related Coursework: Probability and Statistics I (Probability Theory), Probability and Statistics II (Statistics), Advanced Calculus, Ordinary Differential Equations, Partial Differential Equations, Combinatorics, Numerical Analysis, Advanced Linear Algebra, Research Methods, Object Oriented Programming"
 
-    Experience:
-      - company: NASA Ames Research Center
-        position: Research Engineer (Contract)
-        location: Mountain View, California, USA
-        start_date: 2020
-        end_date: 2025
-
-    Awards:
-      - title: National Science Foundation Graduate Research Fellowship Program
-        date: 2022
+    # Section title must stay exactly "Awards" or "Honors and Awards" for
+    # al_folio_cv to use the styled awards template instead of the plain
+    # generic-section fallback.
+    Honors and Awards:
+      - title: National Science Foundation Graduate Research Fellowship Program (NSF GRFP)
         awarder: National Science Foundation
-        summary: NSF Graduate Research Fellowship Program (NSF GFRP)
+        date: 2022
+        summary: "On reserve: 2022-2024 &middot; Funded years: 2024-2027"
 
-      - title: Berkeley Chancellor's Fellowship
-        date: 2024
+      - title: UC Berkeley Chancellor's Fellowship
         awarder: University of California, Berkeley
+        date: 2024
+
+    Skills:
+      - name: Machine Learning
+        keywords:
+          - classification and regression
+          - natural language processing
+          - computer vision
+          - neural networks (fully connected, convolutional, recurrent)
+          - self-supervised learning
+          - supervised learning
+
+      - name: Programming
+        keywords:
+          - Rust
+          - Python (Sklearn, Pandas, Transformers, TensorFlow, PyTorch, Ray)
+          - R
+          - SQL
+          - GDAL
+          - Scala
+          - Google Earth Engine
+          - Julia
+          - SPSS
+          - C++
+          - MATLAB
+          - JavaScript
+
+      - name: Research
+        keywords:
+          - public presentations with slides and posters
+          - literature review
+          - team coordination
+          - time management
+          - project scheduling
+          - scientific writing
+          - peer review
+
+    # Generic section (no dedicated al_folio_cv template) -- rendered as a
+    # plain bulleted list rather than the dated card layout used above.
+    Teaching Experience:
+      - bullet: "**Graduate Student Instructor**, UC Berkeley (2025-2026) &mdash; Reproducible and Collaborative Data Science; Data Analysis and Machine Learning for Real-World Decision Making"
+      - bullet: "**Peer Educator**, Santa Clara University (2020) &mdash; Precalculus"
+      - bullet: "**Tutor**, Santa Clara University (2019-2020) &mdash; Precalculus"
+      - bullet: "**Academic Coach**, Cardinal Education (2019-2020) &mdash; Precalculus, AP Calculus B/C, Algebra II, Algebra I, Chemistry, Neuroscience"
+
+    Mentoring Experience:
+      - bullet: "**Mentor** to UC Berkeley Statistics undergraduate students (2025-2026)"
+      - bullet: "**Mentor** to Mason Lee through the NASA internship program (2023)"
+      - bullet: "**Mentor** for the Teens in AI Bay Area Hackathon (2023)"
+      - bullet: "**Mentor** to Cindy Valdez through the NASA internship program (2021-2022)"
+
+    # Section title must stay exactly "Publications" for the styled
+    # publications template; reserved here for the peer-reviewed journal
+    # articles. Conference papers and technical reports are listed
+    # separately below since a single flat list can't distinguish venues.
+    Publications:
+      - title: "Smoke or Cloud: Real-Time Satellite Image Segmentation in a Wildfire Data Integration Application"
+        publisher: "Computers & Geosciences, 204 (2025): 105960"
+        date: 2025
+        summary: "with Nastaran Shafiei and Peter C. Mehlitz"
+
+      - title: "Machine Learning Framework for Hazard Extraction and Analysis of Trends (HEAT) in Wildfire Response"
+        publisher: "Safety Science, 167 (2023): 106252"
+        date: 2023
+        summary: "with Hannah S. Walsh"
+
+      - title: "Natural-Language-Processing-Enabled Quantitative Risk Analysis of Aerial Wildfire Operations"
+        publisher: "Journal of Aerospace Information Systems (2023): 1-13"
+        date: 2023
+        summary: "with Hannah S. Walsh"
+
+      - title: "Evaluation and Improvement of System-of-Systems Resilience in a Simulation of Wildfire Emergency Response"
+        publisher: "IEEE Systems Journal, 17(2), 1877-1888 (2023)"
+        date: 2023
+        url: "https://doi.org/10.1109/JSYST.2022.3169125"
+        summary: "with Daniel E. Hulse"
+
+      - title: "Discovering a Failure Taxonomy for Early Design of Complex Engineered Systems Using Natural Language Processing"
+        publisher: "Journal of Computing and Information Science in Engineering, 23(3), 031001"
+        date: 2023
+        summary: "with Hannah S. Walsh"
+
+      - title: "MIKA: Manager for Intelligent Knowledge Access Toolkit for Engineering Knowledge Discovery and Information Retrieval"
+        publisher: "INCOSE International Symposium, 33: 1659-1673"
+        date: 2023
+        url: "https://doi.org/10.1002/iis2.13105"
+        summary: "with Hannah S. Walsh"
+
+    Conference Publications:
+      - bullet: "Andrade, Sequoia, and Stark, Philip. \"Does Extending Polling Hours Compensate for Bomb Threats? Evidence from the 2024 Election in Georgia, USA.\" *E-Vote-ID*, October 2025."
+      - bullet: "Mbaye, Seydou; Hulse, Daniel; Irshad, Lukman; Walsh, Hannah; Andrade, Sequoia. \"Towards Computational Functional Hazard Assessment (CFHA): A Gap Analysis and Concept for Emerging Aviation Systems.\" AIAA 2025-1411, *AIAA SciTech 2025 Forum*, January 2025."
+      - bullet: "Andrade, Sequoia R.; Mbaye, Seydou; Davies, Misty; Jones, Garfield. \"Evaluating Faulty State Occurrence in Wildfire UAS Missions Using Markov Chains.\" AIAA 2024-4365, *AIAA AVIATION 2024 Forum*, July 2024."
+      - bullet: "Andrade, Sequoia R., and Walsh, Hannah S. \"SafeAeroBERT: Towards a Safety-Informed Aerospace-Specific Language Model.\" AIAA 2023-3437, *AIAA AVIATION 2023 Forum*, June 2023."
+      - bullet: "Andrade, Sequoia R., and Walsh, Hannah S. \"What Went Wrong: A Survey of Wildfire UAS Mishaps through Named Entity Recognition.\" *2022 IEEE/AIAA 41st Digital Avionics Systems Conference (DASC)*, Portsmouth, VA, 2022, pp. 1-10. Awarded 2nd Best of Conference."
+      - bullet: "Walsh, Hannah S., and Andrade, Sequoia R. \"Semantic Search With Sentence-BERT for Design Information Retrieval.\" *International Design Engineering Technical Conferences and Computers and Information in Engineering Conference*, Vol. 86212, ASME, 2022."
+      - bullet: "Andrade, Sequoia R., and Walsh, Hannah S. \"Machine Learning Enabled Quantitative Risk Assessment of Aerial Wildfire Response.\" *AIAA AVIATION 2022 Forum*, 2022."
+      - bullet: "Andrade, Sequoia R., and Walsh, Hannah S. \"Knowledge Discovery for Early Failure Assessment of Complex Engineered Systems Using Natural Language Processing.\" *International Design Engineering Technical Conferences and Computers and Information in Engineering Conference*, Vol. 85376, ASME, 2021."
+      - bullet: "Andrade, Sequoia R., and Walsh, Hannah S. \"Wildfire Emergency Response Hazard Extraction and Analysis of Trends (HEAT) through Natural Language Processing and Time Series.\" *2021 IEEE/AIAA 40th Digital Avionics Systems Conference (DASC)*, IEEE, 2021."
+      - bullet: "Andrade, Sequoia R., et al. \"The System Modeling and Analysis of Resiliency in STEReO (SMARt-STEReO).\" *AIAA AVIATION 2021 Forum*, 2021."
+
+    Technical Reports:
+      - bullet: "Andrade, Sequoia; Hulse, Daniel E.; Irshad, Lukman; Walsh, Hannah S. \"Supporting Hazard Analysis for Wildfire Response Using fmdtools and MIKA.\" 2022."
+      - bullet: "Lehman, Sarah M.; Slagel, Tanner J.; Andrade, Sequoia; Walsh, Hannah; Goodloe, Alwyn; Brandt, Summer L.; Neogi, Natasha. \"NASA System-Wide Safety Wildland Firefighting Operations Workshop Report.\" NASA/TM-20220014721, 2022."
+      - bullet: "Hulse, Daniel E.; Andrade, Sequoia R.; Spirakis, Eleni; Walsh, Hannah S.; Davies, Misty D. \"SMARt-STEReO: Preliminary Model Description.\" 2020."
+      - bullet: "Walsh, Hannah S.; Spirakis, Eleni; Andrade, Sequoia R.; Hulse, Daniel E.; Davies, Misty D. \"SMARt-STEReO: Preliminary Concept of Operations.\" NASA/TM-20205007665, 2020."
+
+    Presentations:
+      - bullet: "Andrade, Sequoia; Asimow, Naomi; Giordano, Ryan; Cohen, Ronald. \"Towards Accelerated CO2 Inversion Modeling for Understanding Uncertainties through Multicore Processing and a Reusable Code Base.\" American Geophysical Union Annual Meeting, 2025."
+      - bullet: "Andrade, Sequoia; Mehlitz, Peter; Shafiei, Nastaran; Coughlan, Joseph; Brat, Guillaume. \"Improving Satellite-Based Hotspot Detection Through Deep Learning-Enabled Smoke Recognition.\" American Geophysical Union Annual Meeting, 2024."
+      - bullet: "Andrade, Sequoia, and Piryatinska, Alexandra. \"Towards a Statistical Analysis of Wildland and Prescribed Fires in the Changing California Climate.\" CSU Mathematical Sciences Conference, 2023."
+      - bullet: "Andrade, Sequoia, and Walsh, Hannah. \"Natural Language Processing Techniques for Intelligent Knowledge Management of Safety Reports.\" NASA Data Science Summit, 2022."
+
+    # Section title must stay exactly "Certificates" for the styled
+    # certificates template (PDF's "Certifications" heading is renamed here).
+    Certificates:
+      - name: AWS Cloud Practitioner
+        issuer: Amazon Web Services
+        date: 2022
+
+      - name: Unsupervised Data Science for Aviation
+        issuer: NASA
+        date: 2022
+
+      - name: Advanced Data Science for Aviation
+        issuer: NASA
+        date: 2021
+
+      - name: Data Science for Aviation
+        issuer: NASA
+        date: 2021
+
+    Leadership:
+      - bullet: "**Treasurer**, Statistics Graduate Student Association, UC Berkeley (2025)"
+      - bullet: "**Treasurer**, Association for Women in Mathematics, Santa Clara University (2019-2020)"
+      - bullet: "**President**, Pi Mu Epsilon (Eta Chapter), Santa Clara University (2019-2020)"
 
     Interests:
       - name: Research Areas
         icon: fa-solid fa-tag
-        keywords: Computational methods, Social good applications, Racial justice in the legal system, Carbon emissions monitoring
+        keywords:
+          - Computational methods
+          - Social good applications
+          - Racial justice in the legal system
+          - Carbon emissions monitoring

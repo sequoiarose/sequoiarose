@@ -4,6 +4,8 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - sequoiarose/RJA-examples
+  - sequoiarose/georgia-2024-election
   - sequoiarose/smoke-segmentation
   - ODIN-fire/odin-rs
   - NASARace/race

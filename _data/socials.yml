@@ -4,7 +4,7 @@
 cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
 email: srandrade@berkeley.edu # your email address
 # inspirehep_id: # Inspire HEP author ID
-rss_icon: false # comment this line to hide the RSS icon
+# rss_icon: false # comment this line to hide the RSS icon
 scholar_userid: bDFaQ3MAAAAJ # your Google Scholar ID
 github_username: sequoiarose
 linkedin_username: sequoia-andrade
