@@ -62,7 +62,7 @@ cv:
 
     Education:
       - institution: University of California, Berkeley
-        location: Berkeley, California, USA
+        location: Berkeley, California
         area: Statistics
         studyType: PhD
         start_date: 2024
@@ -72,7 +72,7 @@ cv:
           - "Related Coursework: Theoretical Statistics, Probability Theory, Applied Statistics, Statistical Consulting, Case Studies in Prediction, Policy, and AI"
 
       - institution: San Francisco State University
-        location: San Francisco, California, USA
+        location: San Francisco, California
         area: Statistical Data Science
         studyType: M.S.
         start_date: 2022
@@ -84,9 +84,10 @@ cv:
           - "Thesis: A Statistical Analysis of Wildland and Prescribed Fires in the Changing California Climate"
 
       - institution: Santa Clara University
-        location: Santa Clara, California, USA
+        location: Santa Clara, California
         area: "Mathematics (applied emphasis), Psychology"
         studyType: B.S.
+        start_date: 2016
         end_date: 2020
         highlights:
           - "GPA: 3.71 (Magna Cum Laude)"
