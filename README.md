@@ -37,7 +37,7 @@
 
 ### 📫 Contact & Academic Profiles
 
-[![Website Badge](https://img.shields.io/badge/Website-sequoiarose.github.io-4A154B?style=flat-square&logo=googlechrome&logoColor=white)](https://sequoiarose .github.io)
+[![Website Badge](https://img.shields.io/badge/Website-sequoiarose.github.io-4A154B?style=flat-square&logo=googlechrome&logoColor=white)](https://sequoiarose.github.io)
 [![Google Scholar Badge](https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=bDFaQ3MAAAAJ)
 [![ORCID Badge](https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0000-0003-3588-3053)
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)]([https://linkedin.com](https://www.linkedin.com/in/sequoia-andrade))
