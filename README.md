@@ -43,4 +43,8 @@
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)]([https://linkedin.com](https://www.linkedin.com/in/sequoia-andrade))
 
 ---
+[![GitArena Stats](https://gitarena.dev/api/badge/sequoiarose?timeframe=total&theme=light&color=purple)](https://gitarena.dev/u/sequoiarose)
+
+---
 > 💡 *For my full CV, teaching materials, and writing, visit my [personal website](https://sequoiarose.github.io).*
+
